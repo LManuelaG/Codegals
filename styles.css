@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+.user{
+    background-color: black;
+    align-self: flex-start;
+}
+.main-content{
+    width: 1200px;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+.container{
+    background-color: #000;
+    
+}
+.cart{
+    align-self: flex-end;
+}
+
+li{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+li:last-child{
+    margin: 0;
+   
+}
+ul{
+    padding-left: 0;
+}
